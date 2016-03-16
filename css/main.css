@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'bebasregular';
+  src: url("../font/bebas___-webfont.eot");
+  src: url("../font/bebas___-webfont.eot?#iefix") format("embedded-opentype"), url("../font/bebas___-webfont.woff") format("woff"), url("../font/bebas___-webfont.ttf") format("truetype"), url("../font/bebas___-webfont.svg#bebasregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url("../font//HelveticaNeue.eot");
+  src: url("../font/HelveticaNeue.woff") format("woff"), url("../font/HelveticaNeue.ttf") format("truetype"); }
+body {
+  font-family: sans-serif,open-sans;
+  font-size: 14px;
+  line-height: 20px;
+  color: #414141; }
+
+.box-orangelight {
+  background-color: #F3AF9D;
+  background-size: cover;
+  height: 50px; }
+
+.container {
+  background-color: #FFFFFF;
+  padding: 0px 0.5%; }
+
+header {
+  font-family: "bebasregular";
+  overflow: hidden; }
+  header .navbar-default {
+    background-color: transparent;
+    border-color: none;
+    border-bottom: 0; }
+    header .navbar-default .navbar-header .navbar-brand {
+      padding: 50px 15px 0; }
+    header .navbar-default .navbar-header .navbar-toggle {
+      margin-top: 20px; }
+    header .navbar-default .navbar-header a {
+      color: #E7663C;
+      font-size: 36px; }
+      header .navbar-default .navbar-header a span {
+        color: #F3AF9D; }
+    header .navbar-default .navbar-nav {
+      padding: 32px 15px 0; }
+      header .navbar-default .navbar-nav .active > a {
+        color: #E7663C;
+        background: transparent; }
+      header .navbar-default .navbar-nav li a {
+        font-size: 16px;
+        color: #BCBCBC; }
+
+.slider img {
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

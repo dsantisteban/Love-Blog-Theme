@@ -10,47 +10,56 @@
 </head>
 
 <body>	
-	<header>
-		<nav class="navbar navbar-default" role="navigation">
-			<!-- El logotipo y el icono que despliega el menú se agrupan para mostrarlos mejor en los dispositivos móviles -->
-			<div class="container">
-				<div class="navbar-header">
+    <header>
+        <nav class="navbar navbar-default" role="navigation">
+            <!-- El logotipo y el icono que despliega el menú se agrupan
+            para mostrarlos mejor en los dispositivos móviles -->
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Desplegar navegación</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href=""><h1>LOVE<span>BLOG</span></h1></a>
+            </div>
+                <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                otro elemento que se pueda ocultar al minimizar la barra -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown"><a href="index.html">Home</a></li>
+                        <li class="dropdown"><a href="aboutus.html">About us</a></li>
+                        <li class="dropdown"><a href="blog.html">Blog</a></li>
+                        <li class="dropdown"><a href="portafolio.html">Portfolio</a></li>
+                        <li class="dropdown"><a href="contact.html">Contact us</a></li>
 
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-						<span class="sr-only">Desplegar navegación</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<div>	
-					<a class="navbar-brand" href="index.html">LOVE<span>BLOG</span></a>
-					</div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+<!-- 		<header class="header_area">
+			<div class="fix header">
+				<div class="logo fix floatleft">
+					<a href="#"><h1>LOVE<span>BLOG</span></h1></a>
 				</div>
-				<!-- Agrupar los enlaces de navegación, los formularios y cualquier otro elemento que se pueda ocultar al minimizar la barra -->
-				<div class="collapse navbar-collapse navbar-ex1-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="index.html">Home</a></li>
-						<li class="dropdown"><a href="aboutus.html">About us</a></li>
-						<li class="dropdown"><a href="blog.html">Blog</a></li>
-						<li class="dropdown"><a href="portafolio.html">Portfolio</a></li>
-						<li class="dropdown"><a href="contact.html">Contact us</a></li>
+				<div class="mainmenu floatright">
+					<ul id="nav">
+						<li><a href="index.html" class="active">Home</a></li>
+						<li><a href="single.html">About us</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contact.html">Contact us</a></li>
 					</ul>
 				</div>
 			</div>
-		</nav>
-	</header>
-	<section class="box-orangelight">
-		<div class="container">
-			<div class="slider">
-				<img src="images/slider.jpg" alt="image06"/>
-			</div>
-		</div>
-	</section>
-	<section id="services">	
+		</header> -->
 
-
-	</section>
-<!-- 		
+		<header class="header_bottom_area"></header>
 		<div class="main_content_area fix">
 		<div class="fix content_area structure">
 			<div class="fix slider_area">
@@ -183,9 +192,8 @@
 					</div>
 				</div>
 			</div>
-		</div> -->
-		
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap.min.js"></script>						
+		</div>
+	
+		<script src="js/jquery-min.js"></script>						
 </body>
 </html>

@@ -1,0 +1,35 @@
+header{
+	font-family: $bebas;
+	overflow: hidden;
+	.navbar-default {
+		background-color: transparent;
+		border-color: none;
+		border-bottom:0;
+		.navbar-header{
+			.navbar-brand{
+				padding:50px 15px 0; 
+			}
+			.navbar-toggle {
+				margin-top: 20px;
+			}
+			a{
+				color:$orange;
+				font-size: 36px;
+				span{
+					color:$orangelight;
+				}
+			}
+		}
+		.navbar-nav {
+				padding: 32px 15px 0;
+			.active>a{
+				color:$orange;
+				background:transparent;
+			}
+			li a{
+				font-size: 16px;
+				color:$graylight;
+			}
+		}
+	}
+}
