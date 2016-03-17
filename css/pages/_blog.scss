@@ -1,0 +1,31 @@
+.blog{
+	.col-md-4{
+		p:nth-child(2n+1){
+			color:$orange;
+			font-family: $bebas;
+		}
+		p:nth-child(2n+2){
+			color:$graylight;
+		}
+	}
+	.col-md-8{
+		h4{
+			margin:0px 0px 20px;
+			color:$orange;
+			font-family: $bebas;
+			font-weight: 600;
+			
+		}
+	}
+	.bg-quote{
+		background:url("../images/quote_bg.png");
+		padding: 20px 30px 30px 18px;
+		.quote-text {
+			
+		overflow: hidden;
+				p{
+			margin-top: 20px;
+
+		}}
+	}
+}

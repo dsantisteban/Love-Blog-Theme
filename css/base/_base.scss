@@ -34,8 +34,48 @@ body{
 	top:-50px;
 
 }
-.pdr-0{
-	padding-right:0;
+.bg-rayas {
+			background: url("../images/heading-bg.png") repeat-x  ;
+			padding:20px 0;
+}
+.aside{
+	h5{
+		margin:4px 0;
+		color:$orange;
+		font-family: $bebas;
+	}
+	a{
+		color:black;
+	}
+	.gallery{
+		display: inline-block;
+		height: 50px;
+		width: 23%;
+		border:1px solid $orange;
+		background-color: $orangelight;
+	}
+
+}
+.mgb-20{
+	margin-bottom:20px; 	
+}
+.mgb-40{
+	margin-bottom:40px; 	
+}
+.pdr-45{
+	padding-right:50px;
+}
+.pdtb-30-55{
+	padding: 30px 0px 55px;
+}
+.pdb-50{
+	padding-bottom: 50px;
+}
+.mgt-20{
+	margin-top: 20px;
+}
+.mgb-40{
+	margin-bottom: 40px;
 }
 .pdb-40{
 	padding-bottom: 40px;

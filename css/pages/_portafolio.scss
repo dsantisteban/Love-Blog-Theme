@@ -1,0 +1,27 @@
+.portafolio{
+	font-family: $bebas;
+	.categories{
+		li{
+			margin-bottom: 70px;
+		}
+		li.active a {
+			background:$orange;
+			color: $white;
+		}
+		li a {
+			color: $graylight;
+			display: block;
+			padding: 10px 15px;
+		}
+	}
+	.row .thumbnail {
+		padding: 2px;
+		border-radius: 0px;
+	}
+	h5{
+		color:$graylight;
+	}
+	h6{
+		color:$orange;
+	}
+}
