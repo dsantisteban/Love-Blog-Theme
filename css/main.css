@@ -14,31 +14,75 @@ body {
   line-height: 20px;
   color: #414141; }
 
+.repeat {
+  color: #FFFFFF; }
+  .repeat .col-md-12 div {
+    padding: 11px 0; }
+    .repeat .col-md-12 div h3 {
+      margin: 0;
+      font-family: "bebasregular";
+      margin-left: 15px; }
+
+.bg-orange {
+  background: #E7663C; }
+
 .box-orangelight {
   background-color: #F3AF9D;
-  background-size: cover;
   height: 50px; }
 
 .container {
   background-color: #FFFFFF;
   padding: 0px 0.5%; }
 
+.encima .container {
+  position: relative;
+  top: -50px; }
+
+.pdr-0 {
+  padding-right: 0; }
+
+.pdb-40 {
+  padding-bottom: 40px; }
+
+.pd-0 {
+  padding: 0; }
+
+.pdtb-40-20 {
+  padding: 40px 0 20px; }
+
+h2 {
+  font-size: 32px; }
+
+h3 {
+  font-size: 26px; }
+
+h4 {
+  font-size: 20px; }
+
+h5 {
+  font-size: 16px; }
+
+h6 {
+  font-size: 11px; }
+
 header {
-  font-family: "bebasregular";
-  overflow: hidden; }
+  font-family: "bebasregular"; }
   header .navbar-default {
     background-color: transparent;
     border-color: none;
     border-bottom: 0; }
-    header .navbar-default .navbar-header .navbar-brand {
-      padding: 50px 15px 0; }
-    header .navbar-default .navbar-header .navbar-toggle {
-      margin-top: 20px; }
-    header .navbar-default .navbar-header a {
-      color: #E7663C;
-      font-size: 36px; }
-      header .navbar-default .navbar-header a span {
-        color: #F3AF9D; }
+    header .navbar-default .navbar-header {
+      margin-right: 0px;
+      margin-left: 7px; }
+      header .navbar-default .navbar-header .navbar-brand {
+        padding: 50px 15px 0; }
+      header .navbar-default .navbar-header .navbar-toggle {
+        margin-top: 20px; }
+      header .navbar-default .navbar-header a {
+        color: #E7663C;
+        font-size: 36px; }
+        header .navbar-default .navbar-header a span {
+          color: #F3AF9D; }
     header .navbar-default .navbar-nav {
       padding: 32px 15px 0; }
       header .navbar-default .navbar-nav .active > a {
@@ -48,7 +92,89 @@ header {
         font-size: 16px;
         color: #BCBCBC; }
 
-.slider img {
+footer.box-orangelight {
+  height: auto;
+  color: #FFFFFF; }
+  footer.box-orangelight .row {
+    margin: 0 0%; }
+    footer.box-orangelight .row .col-md-4 {
+      padding-right: 28px; }
+      footer.box-orangelight .row .col-md-4 h3 {
+        font-family: "bebasregular"; }
+      footer.box-orangelight .row .col-md-4 .bg-social {
+        background: url("../images/social.png") no-repeat;
+        height: 30px; }
+        footer.box-orangelight .row .col-md-4 .bg-social li a {
+          padding-right: 20px;
+          padding-left: 0; }
+
+.item img {
   width: 100%; }
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+  font-size: 67px;
+  margin-top: -57px; }
+.carousel-control .glyphicon-chevron-left {
+  margin-left: -56px; }
+.carousel-control .glyphicon-chevron-right {
+  margin-right: -22px; }
+
+.carousel-inner > .item > img {
+  height: 482px; }
+
+#services .media-body h5 {
+  color: #E8663C;
+  font-family: "bebasregular";
+  margin-left: 12px;
+  margin-top: 2px;
+  line-height: 30px; }
+#services .btn-more {
+  background: none repeat scroll 0 0 #E8663C;
+  color: #FFFFFF;
+  display: block;
+  font-family: "bebasregular";
+  font-size: 12px;
+  margin-top: 20px;
+  padding: 5px 12px;
+  width: 53px; }
+
+#pictures {
+  font-family: "bebasregular"; }
+  #pictures .row h4 {
+    color: #E7663C;
+    margin-top: 4px; }
+  #pictures .row .bg-rayas {
+    background: url("../images/heading-bg.png") repeat-x;
+    padding: 20px 0; }
+  #pictures .row .thumbnail {
+    padding: 0px;
+    border-radius: 0;
+    border: 0; }
+    #pictures .row .thumbnail .caption {
+      padding: 20px 0px 15px 20px;
+      border-right: 1px solid #BCBCBC;
+      border-bottom: 1px solid #BCBCBC;
+      border-left: 1px solid #BCBCBC; }
+      #pictures .row .thumbnail .caption h5 {
+        color: #999999; }
+      #pictures .row .thumbnail .caption h6 {
+        color: #E7663C; }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px; } }
+@media (max-width: 790px) {
+  header .navbar-default .navbar-header .navbar-toggle {
+    margin-top: 29px; }
+
+  header .navbar-default .navbar-header .navbar-brand {
+    padding: 41px 15px 0; }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    margin-top: 30px; }
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px; } }
 
 /*# sourceMappingURL=main.css.map */

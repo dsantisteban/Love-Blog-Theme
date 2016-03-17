@@ -4,12 +4,60 @@ body{
 	line-height:20px;
 	color:#414141;
 }
+.repeat{
+	color:$white;
+	.col-md-12{
+		div{
+			padding:11px 0;
+			h3{
+				margin:0;
+				font-family: $bebas;
+				margin-left: 15px;
+			}
+		}
+	}
+
+}
+.bg-orange{
+	background: $orange;
+}
 .box-orangelight{
 	background-color:$orangelight;
-	background-size:cover;
 	height:50px;
 }
 .container{
 	background-color:$white;
 	padding: 0px 0.5%;
+}
+.encima .container{
+	position: relative;
+	top:-50px;
+
+}
+.pdr-0{
+	padding-right:0;
+}
+.pdb-40{
+	padding-bottom: 40px;
+}
+.pd-0{
+	padding:0;
+}
+.pdtb-40-20{
+	padding:40px 0 20px;
+}
+h2{
+	font-size: 32px;
+}
+h3{
+	font-size: 26px;
+}
+h4{
+	font-size: 20px;
+}
+h5{
+	font-size: 16px;
+}
+h6{
+	font-size: 11px;
 }

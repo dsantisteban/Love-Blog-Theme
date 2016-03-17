@@ -1,5 +1,77 @@
-.slider{
+.item{
 	img{
 		width: 100%;
 	}
 }
+.carousel-control {
+	.glyphicon-chevron-left,.glyphicon-chevron-right{
+		font-size: 67px;
+		margin-top: -57px;
+	}
+	.glyphicon-chevron-left{
+		margin-left: -56px;
+	}
+	.glyphicon-chevron-right{
+		margin-right: -22px;
+	}
+
+}
+.carousel-inner>.item>img {
+	height: 482px;
+}
+#services{
+	.media-body h5{
+		color: #E8663C;
+		font-family: $bebas;
+		margin-left: 12px;
+		margin-top: 2px;
+		line-height: 30px;
+	}
+	.btn-more {
+		background: none repeat scroll 0 0 #E8663C;
+		color: $white;
+		display: block;
+		font-family: $bebas;
+		font-size: 12px;
+		margin-top: 20px;
+		padding: 5px 12px;
+		width: 53px;
+	}
+}
+#pictures{
+	font-family:$bebas;
+	.row{
+		h4{
+			color:$orange;
+			margin-top: 4px;
+		}
+		.bg-rayas {
+			background: url("../images/heading-bg.png") repeat-x  ;
+			padding:20px 0;
+		} 
+		.thumbnail {
+			padding: 0px;
+			border-radius: 0;
+			border:0;
+
+			.caption{
+				padding:20px 0px 15px 20px;
+				border-right: 1px solid $graylight;
+				border-bottom: 1px solid $graylight;
+				border-left: 1px solid $graylight;
+				h5{
+					color:$graymedium;
+				}
+				h6{
+					color:$orange;
+				}
+
+			}
+
+		}
+	}	
+
+}
+
+
+
