@@ -3,35 +3,20 @@
 		width: 100%;
 	}
 }
-.carousel-control {
-	.glyphicon-chevron-left,.glyphicon-chevron-right{
-		font-size: 67px;
-		margin-top: -57px;
-	}
-	.glyphicon-chevron-left{
-		margin-left: -56px;
-	}
-	.glyphicon-chevron-right{
-		margin-right: -22px;
-	}
-
-}
 .carousel-inner>.item>img {
-	height: 482px;
+	height: auto;
 }
 #services{
 	.media-body h5{
-		color: #E8663C;
-		font-family: $bebas;
+		@include color-font1();
 		margin-left: 12px;
 		margin-top: 2px;
 		line-height: 30px;
 	}
 	.btn-more {
-		background: none repeat scroll 0 0 #E8663C;
-		color: $white;
+		background: $orange;
+		@include color-font2();
 		display: block;
-		font-family: $bebas;
 		font-size: 12px;
 		margin-top: 20px;
 		padding: 5px 12px;
@@ -39,35 +24,37 @@
 	}
 }
 #pictures{
-	font-family:$bebas;
-	.row{
-		h4{
-			color:$orange;
-			margin-top: 4px;
-		} 
-		.thumbnail {
-			padding: 0px;
-			border-radius: 0;
-			border:0;
+	.row img:hover{
+		@include transform(1.1);
+    	@include transition(0.8s);		
+	}
 
-			.caption{
-				padding:20px 0px 15px 20px;
-				border-right: 1px solid $graylight;
-				border-bottom: 1px solid $graylight;
-				border-left: 1px solid $graylight;
-				h5{
-					color:$graymedium;
-				}
-				h6{
-					color:$orange;
-				}
+	h4{
+		color:$orange;
+		margin-top: 4px;
+	} 
+	.thumbnail {
+		padding: 0px;
+		@include radius(0px);
+		border:0;
 
+		.caption{
+			padding:20px 0px 15px 20px;
+			border-right: 1px solid $graylight;
+			border-bottom: 1px solid $graylight;
+			border-left: 1px solid $graylight;
+			h5{
+				color:$graymedium;
+			}
+			h6{
+				color:$orange;
 			}
 
 		}
-	}	
 
-}
+	}
+}	
+
 
 
 

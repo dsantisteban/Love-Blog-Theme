@@ -1,12 +1,10 @@
-.portafolio{
-	font-family: $bebas;
+#portafolio{
 	.categories{
 		li{
 			margin-bottom: 70px;
 		}
 		li.active a {
-			background:$orange;
-			color: $white;
+			@include bg-color1();
 		}
 		li a {
 			color: $graylight;
@@ -16,12 +14,17 @@
 	}
 	.row .thumbnail {
 		padding: 2px;
-		border-radius: 0px;
+		@include radius(0px);
+		&:hover{
+			@include transform(1.1);
+			@include transition(0.5s);	
+		}
 	}
 	h5{
 		color:$graylight;
 	}
 	h6{
 		color:$orange;
+
 	}
 }

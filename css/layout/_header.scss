@@ -1,12 +1,11 @@
 header{
-	font-family: $bebas;
 	.navbar-default {
 		background-color: transparent;
 		border-color: none;
 		border-bottom:0;
 		.navbar-header{
-			 margin-right: 0px;
-   			 margin-left: 7px;
+			margin-right: 0px;
+			margin-left: 7px;
 			.navbar-brand{
 				padding:50px 15px 0; 
 			}
@@ -22,14 +21,18 @@ header{
 			}
 		}
 		.navbar-nav {
-				padding: 32px 15px 0;
-			.active>a{
+			padding: 32px 15px 0;
+			a.active{
 				color:$orange;
 				background:transparent;
 			}
 			li a{
 				font-size: 16px;
 				color:$graylight;
+				&:hover {
+					background-color: $white;
+					color: $orange;
+				}
 			}
 		}
 	}

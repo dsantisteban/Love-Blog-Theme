@@ -4,14 +4,16 @@ body{
 	line-height:20px;
 	color:#414141;
 }
+
+header,h1,h2,h3,h4,h5,h6,#portafolio a,ul.pagination li a{
+	font-family: $bebas;
+}
 .repeat{
-	color:$white;
 	.col-md-12{
 		div{
 			padding:11px 0;
 			h3{
 				margin:0;
-				font-family: $bebas;
 				margin-left: 15px;
 			}
 		}
@@ -19,7 +21,7 @@ body{
 
 }
 .bg-orange{
-	background: $orange;
+	@include bg-color1();
 }
 .box-orangelight{
 	background-color:$orangelight;
@@ -35,22 +37,20 @@ body{
 
 }
 .bg-rayas {
-			background: url("../images/heading-bg.png") repeat-x  ;
-			padding:20px 0;
+	background: url("../images/heading-bg.png") repeat-x  ;
+	padding:20px 0;
 }
 .aside{
 	h5{
 		margin:4px 0;
-		color:$orange;
-		font-family: $bebas;
+		@include color-font1();
 	}
 	a{
 		color:black;
 	}
 	.gallery{
 		display: inline-block;
-		height: 50px;
-		width: 23%;
+		@include width-height(50px,50px);
 		border:1px solid $orange;
 		background-color: $orangelight;
 	}

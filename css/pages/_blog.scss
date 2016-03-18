@@ -1,8 +1,23 @@
-.blog{
+#blog{
+	.imageright{
+		position: absolute;
+		left:-66px;
+	}
+	.col-md-9 .row{
+		margin:0;
+		padding:0;
+	}
+	h4{
+		@include color-font1();
+	}
+	ul.pagination li a{
+		@include bg-color1();
+		margin-right: 5px;
+		@include radius(0px);
+	}
 	.col-md-4{
 		p:nth-child(2n+1){
-			color:$orange;
-			font-family: $bebas;
+			@include color-font1();
 		}
 		p:nth-child(2n+2){
 			color:$graylight;
@@ -11,21 +26,17 @@
 	.col-md-8{
 		h4{
 			margin:0px 0px 20px;
-			color:$orange;
-			font-family: $bebas;
-			font-weight: 600;
-			
+			font-weight: 600;		
 		}
 	}
 	.bg-quote{
 		background:url("../images/quote_bg.png");
-		padding: 20px 30px 30px 18px;
-		.quote-text {
-			
-		overflow: hidden;
-				p{
-			margin-top: 20px;
-
-		}}
+		padding: 20px 27px 30px 18px;
+		.quote-text {	
+			overflow: hidden;
+			p{
+				margin-top: 20px;
+			}
+		}
 	}
 }
